@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Cadastro de Usuário</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sideLeft">
+            Slogan
+        </div>
+        <div class="sideRight">
+            <h2>Cadastro de Usuário</h2>
+            <br>
+            <form action="../model/CadastrarUser.php" method="post">
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+                    <br>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+                    <br>
+                    <label for="code_user">Código Único</label>
+                    <input type="text" name="code_user" id="code_user" placeholder="Digite um número: ex.: 33" required>
+                    <br>
+                    <label for="title">Título</label>
+                    <input type="text" name="title" id="title" placeholder="Digite um título" required>
+                    <br>
+                    <label for="password">Senha</label>
+                    <input type="password" name="password" id="password" placeholder="Digite sua senha" required>
+                    <br>
+                    <label for="password-verification">Reescreva a senha</label>
+                    <input type="password" name="password-verification" id="password-verification"
+                        placeholder="Repita a Senha" required>
+                </div>
+                <button type="submit">Cadastrar</button>
+                <button type="reset">Limpar</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
