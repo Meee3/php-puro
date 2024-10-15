@@ -13,7 +13,7 @@ Página de Login:
 
 1. O usuário deve inserir o Email e a Senha.
 Caso as credenciais sejam validadas com sucesso, o usuário deve ser redirecionado para uma página privada (não é necessário incluir informações nessa página).
-Após concluir o exercício, faça o upload do seu código no GitHub e envie o link do repositório para o email: heisentecnologia@gmail.com.
+Após concluir o exercício, faça o upload do seu código no GitHub e envie o link do repositório para o email: ##########@gmail.com.
 
 ##### #### *O exercício deve ser realizado em PHP puro.
 
